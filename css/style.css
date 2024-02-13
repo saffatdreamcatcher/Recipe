@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: "Outfit";
-  src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "YoungSerif";
-  src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf");
 }
 body {
   background-color: hsl(30, 54%, 90%);
@@ -67,7 +67,7 @@ img {
 }
 .recipe__details__description .title {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: hsl(24, 5%, 18%);
 }
 .recipe__details__description p {
@@ -86,12 +86,58 @@ img {
   font-size: 1.3rem;
 }
 .recipe__details__time ul {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
 }
 .recipe__details__time ul li::marker {
   color: hsl(332, 51%, 32%);
 }
-.recipe__details__time .title {
+.recipe__details__time ul .title {
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
+  margin-left: 14px;
+}
+.recipe__details__ingredients {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.recipe__details__ingredients .title {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.recipe__details__ingredients ul {
+  margin-left: 1.8rem;
+  margin-bottom: 20px;
+}
+.recipe__details__ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.recipe__details__ingredients ul .sub-title {
+  margin-left: 12px;
+  color: hsl(30, 10%, 34%);
+}
+.recipe__details__instructions {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.recipe__details__instructions .heading {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.recipe__details__instructions ol {
+  margin-left: 1rem;
+  margin-bottom: 20px;
+}
+.recipe__details__instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+.recipe__details__instructions ol .total {
+  color: hsl(30, 10%, 34%);
+  margin-left: 14px;
+}
+.recipe__details__instructions ol .total .title {
   color: hsl(24, 5%, 18%);
   font-weight: 700;
 }

@@ -9,7 +9,7 @@
     &__description {
       .title {
         font-size: 2.5rem;
-        font-weight: 600;
+        font-weight: 500;
         color: $dark-charcoal;
       }
       p {
@@ -28,14 +28,60 @@
       line-height: 2;
       color: $wenge-brown;
       ul {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
         li::marker {
           color: $dark-raspberry;
         }
+        .title {
+          color: $dark-charcoal;
+          font-weight: 700;
+          margin-left: 14px;
+        }
       }
+    }
+    &__ingredients {
+      margin-top: 10px;
+      margin-bottom: 20px;
       .title {
-        color: $dark-charcoal;
-        font-weight: 700;
+        color: $nutmeg;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+      ul {
+        margin-left: 1.8rem;
+        margin-bottom: 20px;
+        li::marker {
+          color: $nutmeg;
+        }
+        .sub-title {
+          margin-left: 12px;
+          color: $wenge-brown;
+        }
+      }
+    }
+    &__instructions {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      .heading {
+        color: $nutmeg;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+      ol {
+        margin-left: 1rem;
+        margin-bottom: 20px;
+        li::marker {
+          color: $nutmeg;
+          font-weight: 700;
+        }
+        .total {
+          color: $wenge-brown;
+          margin-left: 14px;
+          .title {
+            color: $dark-charcoal;
+            font-weight: 700;
+          }
+        }
       }
     }
   }
