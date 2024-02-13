@@ -76,9 +76,37 @@
         }
         .total {
           color: $wenge-brown;
-          margin-left: 14px;
+          margin-left: 7px;
+          .join {
+            margin-left: 10px;
+          }
           .title {
             color: $dark-charcoal;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+    &__nutrition {
+      margin-top: 10px;
+      .heading {
+        color: $nutmeg;
+        font-size: 1.8rem;
+        font-weight: 500;
+      }
+      .sub-heading {
+        margin-top: 15px;
+        color: $wenge-brown;
+      }
+      ul {
+        list-style: none;
+        .detail {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding: 0.6rem 1rem;
+          color: $wenge-brown;
+          .quantity {
+            color: $nutmeg;
             font-weight: 700;
           }
         }

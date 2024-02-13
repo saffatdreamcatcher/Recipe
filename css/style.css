@@ -43,10 +43,9 @@ h1, h2 {
   width: 100%;
   background-color: hsl(0, 0%, 100%);
   margin-top: 3rem;
+  margin-bottom: 3rem;
   padding: 2rem;
   line-height: 1.6;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
 }
 
@@ -56,6 +55,10 @@ img {
      object-fit: contain;
   width: 100%;
   border-radius: 10px;
+}
+
+hr {
+  border-top: 1px hsl(24, 5%, 18%);
 }
 
 .recipe__img {
@@ -135,9 +138,37 @@ img {
 }
 .recipe__details__instructions ol .total {
   color: hsl(30, 10%, 34%);
-  margin-left: 14px;
+  margin-left: 7px;
+}
+.recipe__details__instructions ol .total .join {
+  margin-left: 10px;
 }
 .recipe__details__instructions ol .total .title {
   color: hsl(24, 5%, 18%);
+  font-weight: 700;
+}
+.recipe__details__nutrition {
+  margin-top: 10px;
+}
+.recipe__details__nutrition .heading {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.recipe__details__nutrition .sub-heading {
+  margin-top: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.recipe__details__nutrition ul {
+  list-style: none;
+}
+.recipe__details__nutrition ul .detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.6rem 1rem;
+  color: hsl(30, 10%, 34%);
+}
+.recipe__details__nutrition ul .detail .quantity {
+  color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
