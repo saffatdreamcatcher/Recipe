@@ -1,0 +1,17 @@
+.recipe {
+  &__img {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  &__details {
+    margin-top: 2rem;
+
+    &__description {
+      .title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color:$dark-charcoal;
+      }
+    }
+  }
+}
