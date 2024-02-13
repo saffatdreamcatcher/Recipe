@@ -13,15 +13,17 @@
         color: $dark-charcoal;
         @include sm {
           font-size: 2rem;
+          line-height: 1.4;
         }
       }
       p {
         margin: 0.5rem 0 2rem;
         color: $wenge-brown;
+        @include sm {
+          margin-top: 20px;
+        }
       }
-      // @include sm {
-      //   padding: 2rem;
-      // }
+     
     }
     &__time {
       .preparation-title {
@@ -46,16 +48,10 @@
       }
     }
     &__ingredients {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      .title {
-        color: $nutmeg;
-        font-size: 1.8rem;
-        font-weight: 500;
-      }
       ul {
-        margin-left: 1.8rem;
+        margin-top: 10px;
         margin-bottom: 20px;
+        margin-left: 1.8rem;
         li::marker {
           color: $nutmeg;
         }
@@ -66,14 +62,8 @@
       }
     }
     &__instructions {
-      margin-top: 10px;
-      margin-bottom: 20px;
-      .heading {
-        color: $nutmeg;
-        font-size: 1.8rem;
-        font-weight: 500;
-      }
       ol {
+        margin-top: 10px;
         margin-left: 1rem;
         margin-bottom: 20px;
         li::marker {
@@ -95,17 +85,13 @@
     }
     &__nutrition {
       margin-top: 10px;
-      .heading {
-        color: $nutmeg;
-        font-size: 1.8rem;
-        font-weight: 500;
-      }
       .sub-heading {
         margin-top: 15px;
         color: $wenge-brown;
       }
       ul {
         list-style: none;
+        margin-top: 10px;
         .detail {
           display: grid;
           grid-template-columns: 1fr 1fr;
