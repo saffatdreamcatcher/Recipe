@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: "OutfitVariableFont";
+  font-family: "Outfit";
   src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 @font-face {
@@ -56,10 +56,6 @@ img {
      object-fit: contain;
   width: 100%;
   border-radius: 10px;
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  transition: -webkit-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
 
 .recipe__img {
@@ -73,4 +69,29 @@ img {
   font-size: 2.5rem;
   font-weight: 600;
   color: hsl(24, 5%, 18%);
+}
+.recipe__details__description p {
+  margin: 0.5rem 0 2rem;
+  color: hsl(30, 10%, 34%);
+}
+.recipe__details__time {
+  padding: 1.3rem 2rem 1.3rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  line-height: 2;
+  color: hsl(30, 10%, 34%);
+}
+.recipe__details__time .preparation-title {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3rem;
+}
+.recipe__details__time ul {
+  margin-left: 2rem;
+}
+.recipe__details__time ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.recipe__details__time .title {
+  color: hsl(24, 5%, 18%);
+  font-weight: 700;
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 @font-face{
-    font-family: 'OutfitVariableFont';
+    font-family: 'Outfit';
     src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
 }
 @font-face{
@@ -40,5 +40,4 @@ img{
     object-fit: contain;
     width: 100%;
     border-radius: 10px;
-    transition: transform 0.5s ease-in-out;
 }
