@@ -1,10 +1,14 @@
 .recipe {
   &__img {
-    overflow: hidden;
-    border-radius: 10px;
+    padding: 2rem;
+    @include sm {
+      padding: 0;
+    }
   }
+
   &__details {
     margin-top: 2rem;
+    padding: 2rem;
 
     &__description {
       .title {
@@ -23,7 +27,6 @@
           margin-top: 20px;
         }
       }
-     
     }
     &__time {
       .preparation-title {

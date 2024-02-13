@@ -39,7 +39,6 @@ h2 {
   background-color: hsl(0, 0%, 100%);
   margin-top: 3rem;
   margin-bottom: 3rem;
-  padding: 2rem;
   line-height: 1.6;
   border-radius: 10px;
 }
@@ -50,9 +49,6 @@ h2 {
 }
 
 img {
-  display: block;
-  -o-object-fit: contain;
-     object-fit: contain;
   width: 100%;
   border-radius: 10px;
 }
@@ -73,11 +69,16 @@ hr {
 }
 
 .recipe__img {
-  overflow: hidden;
-  border-radius: 10px;
+  padding: 2rem;
+}
+@media only screen and (max-width: 576px) {
+  .recipe__img {
+    padding: 0;
+  }
 }
 .recipe__details {
   margin-top: 2rem;
+  padding: 2rem;
 }
 .recipe__details__description .title {
   font-size: 2.5rem;
