@@ -1,0 +1,27 @@
+.recipe__details { 
+   &__time {
+      .preparation-title {
+        color: $dark-raspberry;
+        font-size: 1.3rem;
+      }
+      padding: 1.3rem 2rem 1.3rem;
+      background-color: $rose-white;
+      border-radius: 10px;
+      line-height: 2;
+      color: $wenge-brown;
+      ul {
+        margin-left: 1.5rem;
+        @include sm {
+          margin-left: 0;
+        }
+        li::marker {
+          color: $dark-raspberry;
+        }
+        .title {
+          color: $dark-charcoal;
+          font-weight: 700;
+          margin-left: 14px;
+        }
+      }
+    }
+}

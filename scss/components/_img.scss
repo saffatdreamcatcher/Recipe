@@ -1,0 +1,8 @@
+.recipe {
+  &__img {
+    padding: 2rem 2rem 0;
+    @include sm {
+      padding: 0;
+    }
+  }
+}

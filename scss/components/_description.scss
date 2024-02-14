@@ -1,0 +1,22 @@
+.recipe__details {
+   &__description {
+      .title {
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: $dark-charcoal;
+        // padding: 0;
+        @include sm {
+          font-size: 2rem;
+          line-height: 1.4;
+        }
+      }
+      p {
+        margin: 0.5rem 0 2rem;
+        color: $wenge-brown;
+        @include sm {
+          margin-top: 20px;
+          font-size: 15px;
+        }
+      }
+    }
+}

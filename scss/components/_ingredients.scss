@@ -1,0 +1,16 @@
+.recipe__details {
+    &__ingredients {
+      ul {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 1.8rem;
+        li::marker {
+          color: $nutmeg;
+        }
+        .sub-title {
+          margin-left: 12px;
+          color: $wenge-brown;
+        }
+      }
+    }
+    }

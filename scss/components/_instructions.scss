@@ -1,0 +1,24 @@
+.recipe__details {
+   &__instructions {
+      ol {
+        margin-top: 10px;
+        margin-left: 1rem;
+        margin-bottom: 20px;
+        li::marker {
+          color: $nutmeg;
+          font-weight: 700;
+        }
+        .total {
+          color: $wenge-brown;
+          margin-left: 7px;
+          .join {
+            margin-left: 10px;
+          }
+          .title {
+            color: $dark-charcoal;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+ }

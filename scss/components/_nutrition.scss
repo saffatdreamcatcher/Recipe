@@ -1,0 +1,23 @@
+.recipe__details { 
+   &__nutrition {
+      margin-top: 10px;
+      .sub-heading {
+        margin-top: 15px;
+        color: $wenge-brown;
+      }
+      ul {
+        list-style: none;
+        margin-top: 10px;
+        .detail {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding: 0.6rem 1rem;
+          color: $wenge-brown;
+          .quantity {
+            color: $nutmeg;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+}
