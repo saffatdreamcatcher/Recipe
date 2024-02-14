@@ -52,6 +52,11 @@ img {
   width: 100%;
   border-radius: 10px;
 }
+@media only screen and (max-width: 576px) {
+  img {
+    border-radius: 0;
+  }
+}
 
 hr {
   border-top: 1px hsl(24, 5%, 18%);
